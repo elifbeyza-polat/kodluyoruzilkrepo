@@ -1,111 +1,43 @@
-* {
-    box-sizing: border-box;
-    font-size: 20px;
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
 }
 
-body {
-    background: url(17973908.jpg);
-    margin: 0;
-}
-
-.container, .header, .main {
+.section {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
 }
 
-.list-item {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0 1rem;
-    
-}
-
-.tech-list-item {
-    margin: 0.5rem;
-}
-
-.list-link {
-    text-decoration: none;
-    color: purple;
-    font-weight: 800;
-}
-
-
-.title {
-    font-size: 2rem;
-}
-
-.main-title {
-    font-size: 1.5rem;
-    color: blue;
-}
-
-.product-title {
-    font-size: 1.2rem;
-    text-decoration: underline;
-    color: darkgreen;
-}
-
-.tech-list {
-    margin-right: 1rem;
-}
-
-/* ABOUT US */
-
-.main-aboutus {
-    padding-left: 0.5rem;
-    padding-top: 1.5rem;
-    padding-right: 1rem;
-}
-
-.main-aboutus h2 {
-    color: green;
-    font-weight: 1000;
-}
-
-.p-2 {
-    text-align: justify;
-}
-
-.aboutus-title {
-    color: gray;
-    font-weight: 800;
-}
-
-
-/* PRODUCT */
-
-.images {
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    
-}
-
-.product-item {
-    font-weight: 800;
-    font-size: 1.2rem;
-    color: orange;
-    list-style-position: inside; 
-      
-
-}
-
-
-.product-list {
-    display: inline-block;
-}
-
-.main-product {
+.search {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #EEEEEE;
+    width: 90%;
 }
 
-.img-caption {
-    color: black;
+.searchText {
+    margin: 0px;
+}
+
+.textBox {
+    width: 295px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
